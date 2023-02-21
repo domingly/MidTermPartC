@@ -60,7 +60,10 @@ public class UserProfile
     public void setGenre(String genre) {
         this.genre = genre;
     }
-
+    /*
+    author:Lynzelda Dominguez
+    date:February 21,2022
+    */
     @Override
     public String toString() {
         return "UserProfile successfully created {" + "userID=" + userID + ", genre=" + genre + '}';
