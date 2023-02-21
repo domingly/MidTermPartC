@@ -60,6 +60,11 @@ public class UserProfile
     public void setGenre(String genre) {
         this.genre = genre;
     }
+
+    @Override
+    public String toString() {
+        return "UserProfile successfully created {" + "userID=" + userID + ", genre=" + genre + '}';
+    }
     
     
     

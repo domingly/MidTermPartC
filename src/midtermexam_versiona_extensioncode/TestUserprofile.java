@@ -23,7 +23,7 @@ public class TestUserprofile {
         String name= input.nextLine();
         String genre= input.nextLine();
         UserProfile user=new UserProfile(name,genre);
-        System.out.println("User profile was successfully created");
+        System.out.println(user.toString());
         
     }
     
