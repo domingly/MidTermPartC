@@ -61,7 +61,7 @@ public class UserProfile
         this.genre = genre;
     }
     /*
-    author:Lynzelda Dominguez
+    author name:Lynzelda Dominguez
     date:February 21,2022
     */
     @Override
